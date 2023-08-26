@@ -1,0 +1,52 @@
+.section{margin-top: 15px;}
+.section h1{
+    font-size: 40px;
+    margin-top: 10vh;
+    margin: 0;
+}
+
+.border{
+    width: 220px;
+    height: 0px;
+    border: 1px solid black;
+}
+.clot{
+    margin-top: 10px;
+    display: flex;
+   
+    width: 100%;
+    
+}
+.menus ul{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 16vh
+}
+.a{
+    font-weight: 700;
+    font-size: 15px;
+}
+.insert{
+    display: flex;
+    overflow: hidden;
+}
+
+@media (max-width:498px){
+    .clot{
+        flex-direction: column;
+    }
+    .menus{
+        width: 100%;
+    }
+    .menus ul{
+        flex-direction: row;
+        margin:0;
+        width: 82%;
+        height: 3vh;
+    }
+}

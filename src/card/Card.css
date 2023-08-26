@@ -1,0 +1,47 @@
+.card{
+    position: relative;
+    height: 275px;
+    min-width: 200px;
+    overflow: hidden;
+    overflow: hidden;
+    
+    
+}
+.card img{
+    width: 100%;
+    height: 175px;
+    object-fit:cover;
+}
+.card p{
+    margin: 0;
+}
+.title{
+    font-weight: 600;
+    font-size: 17px;
+    height: 19px;
+    overflow: hidden;
+    
+}
+.story{
+    font-size: 12px;
+    padding: 2px;
+    color: silver;
+    flex: 1; 
+    overflow: hidden;
+    height: 50px;
+}
+.price{
+    font-weight: 700;
+    font-size: 17px;
+    padding: 1px;
+}
+.sign{
+    position: absolute;
+    top:145px;
+    right:5px;
+    color:white;
+    width: 20px;
+    height: 20px;
+    background-color:black;
+    padding: 1px
+}
